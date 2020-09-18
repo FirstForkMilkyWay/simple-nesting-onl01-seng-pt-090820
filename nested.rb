@@ -127,7 +127,8 @@ def adding_to_dennis
           :languages=> ["Assembly"]
         }
      }
-  programmer_hash[:dennis_ritchie][:languages][1].to_include("Assembly")
+ programmer_hash[:dennis_ritchie][:languages] << "Assembly"
+  programmer_hash
   programmer_hash
 
 end
